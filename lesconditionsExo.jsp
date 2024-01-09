@@ -5,6 +5,8 @@
 </head>
 <body bgcolor=white>
 <h1>Exercices sur les conditions</h1>
+
+<h2>Exo 1</h2>
 <form action="#" method="post">
     <p>Saisir la valeur 1 : <input type="text" id="inputValeur" name="valeur1">
     <p>Saisir la valeur 2 : <input type="text" id="inputValeur" name="valeur2">
@@ -34,7 +36,7 @@
         <% } else { %>
             <p>Non, C n'est pas compris entre A et B</p>
         <% } %>
-<h2>Ex0 2</h2>
+<h2>Exo 2</h2>
 <%
     if (valeur4 != null) {
         int number = Integer.parseInt(valeur4);
