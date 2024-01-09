@@ -36,13 +36,13 @@
   
    <% for (var i = 0; i < taille; i++) { %>
        
-        var ligne = "";
+      <%  var ligne = "";%>
 
-        for (var j = 0; j < taille; j++) {
+      <%  for (var j = 0; j < taille; j++) { %>
             
-            ligne += "* ";
+          <%  ligne += "* ";%>
         }
-        console.log(ligne);
+       <% console.log(ligne);%>
     }
 ---------------------------------------------------------------------
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
