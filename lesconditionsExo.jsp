@@ -31,4 +31,27 @@
         <% } else { %>
             <p>Non, C n'est pas compris entre A et B</p>
         <% } %>
+<h2>Ex0 2</h2>
+<%
+<form action="#" method="post">
+    <p>Saisir la valeur 4 : <input type="text" id="inputValeur" name="valeur4">
+    <p><input type="submit" value="Afficher">
+</form>
+<%-- Récupération des valeurs --%>
+    <% String valeur1 = request.getParameter("valeur1"); %>
+
+    if (valeur1 != null) {
+        int number = Integer.parseInt(valeur1);
+        // Vérification pair ou impair
+        if (number % 2 == 0) { 
+%>
+            <p>Le nombre est pair.</p>
+<%
+        } else { 
+%>
+            <p>Le nombre est impair.</p>
+<%
+        }
+    }
+%>
 <% } %>
