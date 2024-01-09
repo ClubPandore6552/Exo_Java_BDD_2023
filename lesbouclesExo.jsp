@@ -25,8 +25,8 @@
 <% } %>
 </p>
 
-<h2>Exercice 1 : Le carré d'étoiles</h2>
-<p>Ecrire le code afin de produire un carré d'étoile</p>
+<h2>Exo 1</h2>
+
 <% for (int i = 0; i < cpt; i++) { %>
     <% for (int j = 0; j < cpt; j++) { %>
         <%= "*" %>
@@ -36,8 +36,8 @@
 
 </p>
 
-<h2>Exercice 2 : Triangle rectangle gauche</h2>
-<p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
+<h2>Exo 2</h2>
+
 <% for (int i = 1; i <= cpt; i++) { %>
     <% for (int j = 1; j <= i; j++) { %>
         <%= "*" %>
@@ -45,8 +45,8 @@
     <br>
 <% } %>
 
-<h2>Exercice 3 : Triangle rectangle inversé</h2>
-<p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
+<h2>Exo 3</h2>
+
 <% for (int i = cpt; i >= 1; i--) { %>
     <% for (int j = 1; j <= i; j++) { %>
         <%= "*" %>
@@ -54,8 +54,8 @@
     <br>
 <% } %>
 
-<h2>Exercice 4 : Triangle rectangle aligné sur la droite</h2>
-<p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
+<h2>Exo 4</h2>
+
 <% for (int i = 1; i <= cpt; i++) { %>
     <% for (int j = cpt - i; j > 0; j--) { %>
         <%= "&nbsp;&nbsp;" %>
@@ -67,8 +67,8 @@
 <% } %>
 
 
-<h2>Exercice 5 : Triangle isocele</h2>
-<p>Ecrire le code afin de produire un triangle isocèle</p>
+<h2>Exo 5</h2>
+
 <% for (int i = 1; i <= cpt; i++) { %>
     <% for (int j = 1; j <= cpt - i; j++) { %>
         <%= "&nbsp;&nbsp;" %>
@@ -81,8 +81,8 @@
 
 
 
-<h2>Exercice 6 : Le demi losange</h2>
-<p>Ecrire le code afin de produire un losange</p>
+<h2>Exo 6</h2>
+
 <% for (int i = 1; i <= cpt; i++) { %>
     <% for (int j = 1; j <= cpt - i; j++) { %>
         <%= "&nbsp;&nbsp;" %>
@@ -104,8 +104,8 @@
 
 
 
-<h2>Exercice 7 : La table de multiplication</h2>
-<p>Ecrire le code afin de créer une table de multiplication</p>
+<h2>Exo 7</h2>
+
 <% int num = Integer.parseInt(valeur); %>
 <% for (int i = 1; i <= 10; i++) { %>
     <p><%= num %> x <%= i %> = <%= num * i %></p>
