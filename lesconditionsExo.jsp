@@ -24,11 +24,11 @@
         <% int intValeur3 = Integer.parseInt(valeur3); %>
         
         <%-- Condition if pour comparer les valeurs --%>
-        <% if (intValeur1 > intValeur2) { %>
-            <p>Valeur 1 est supérieure à Valeur 2.</p>
-        <% } else if (intValeur1 < intValeur2) { %>
-            <p>Valeur 1 est inférieure à Valeur 2.</p>
+        <% if (intvaleur3 >= intvaleur1 && intvaleur3 <= intvaleur2) { %>
+            <p>Oui, C est compris entre A et B.</p>
+        <% } else if (intvaleur3 >= intvaleur2 && intvaleur3 <= intvaleur1) { %>
+            <p>Oui, C est compris entre A et B.</p>
         <% } else { %>
-            <p>Valeur 1 est égale à Valeur 2.</p>
+            <p>Non, C n'est pas compris entre A et B</p>
         <% } %>
 <% } %>
