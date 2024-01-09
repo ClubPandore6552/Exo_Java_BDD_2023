@@ -17,6 +17,14 @@
 <%-- Vérification de l'existence de la valeur --%>
 <% if (valeur != null && !valeur.isEmpty()) { %>
 
+<%-- Affichage d'une ligne d'étoiles en fonction de la valeur saisie --%>
+<% int cpt = Integer.parseInt(valeur); %>
+<p>
+<% for (int i = 1; i <= cpt; i++) { %>
+   <%= " " %>
+<% } %>
+</p>
+
 <h2>Exo 1</h2>
 
 <% for (int i = 0; i < cpt; i++) { %>
