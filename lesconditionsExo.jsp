@@ -38,10 +38,10 @@
     <p><input type="submit" value="Afficher">
 </form>
 <%-- Récupération des valeurs --%>
-    <% String valeur1 = request.getParameter("valeur1"); %>
+    <% String valeur4 = request.getParameter("valeur4"); %>
 
-    if (valeur1 != null) {
-        int number = Integer.parseInt(valeur1);
+    if (valeur4 != null) {
+        int number = Integer.parseInt(valeur4);
         // Vérification pair ou impair
         if (number % 2 == 0) { 
 %>
