@@ -29,22 +29,7 @@
 <p>Ecrire le code afin de produire un carré d'étoile</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>*****</br>*****</br>*****</br>*****</br>*****</p>
----------------------------------------------------------------------
 
-
-<%int taille = Integer.parseInt(valeur); %>
-  
-   <% for (var i = 0; i < taille; i++) { %>
-       
-      <%  var ligne = "";%>
-
-      <%  for (var j = 0; j < taille; j++) { %>
-            
-          <%  ligne += "* ";%>
-        }
-       <% console.log(ligne);%>
-    }
----------------------------------------------------------------------
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
